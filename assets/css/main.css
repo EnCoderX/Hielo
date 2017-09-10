@@ -4331,11 +4331,11 @@
     padding-left: 0.75em;
 }
 
-@media screen and (max-width: 981px) {
+@media screen and (max-width: 980px) {
     .rajguru-logo img {
         float: left;
         display: block;
-        height: 275em;
+        height: 2.75em;
         width: auto;
         padding-left: 0.50em;
     }
