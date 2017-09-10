@@ -3711,6 +3711,7 @@
 		top: 0;
 		width: 100%;
 		z-index: 10001;
+        text-indent: 2em;
 	}
 
 		#header > .logo {
@@ -3722,12 +3723,14 @@
 			padding: 0;
 			position: absolute;
 			top: 0;
+            text-indent: 2em;
 		}
 
 			#header > .logo a {
 				font-size: 1.25em;
 				color: #FFF;
 				text-decoration: none;
+                padding-left: 0.5em;
 			}
 
 				#header > .logo a:hover {
@@ -4030,23 +4033,21 @@
 			min-height: 100vh;
 			height: 100vh !important;
 		}
-
+        
+        .banner.half {
+            padding: 0;
+            min-height: 100vh;
+            height: 100vh !important;
+        }
+        
         @media screen and (max-width:980px) {
-                .banner.half {
-                    padding: 0;
-                    min-height: 50vh;
-                    height: 50vh !important;
+        .banner.half {
+            padding: 0;
+            min-height: 75vh;
+            height: 75vh !important;
                 }
         }
         
-        @media screen and (max-width:1280px) {
-            .banner.half {
-                            padding: 0;
-                            min-height: 100vh;
-                            height: 100vh !important;
-                        }
-        }
-
 		.banner:after {
 			-moz-pointer-events: none;
 			-webkit-pointer-events: none;
@@ -4321,3 +4322,11 @@
 			}
 
 		}
+        
+.rajguru-logo img {
+    float: left;
+    display: block;
+    height: 3.15em;
+    width: auto;
+    padding-left: 0.75em;
+}
