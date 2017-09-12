@@ -4344,3 +4344,9 @@
         padding-left: 0.50em;
     }
 }
+
+@media only screen and (max-width: 980px) {
+	#hideheader {
+		display: none;
+	}
+}
