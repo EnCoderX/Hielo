@@ -2553,7 +2553,7 @@
 	header p {
 		position: relative;
 		margin: 0 0 1.5rem 0;
-	}
+	}  
 
 	header h2 + p {
 		font-size: 1.25rem;
@@ -4176,11 +4176,20 @@
 				}
 
 			.banner > article h2 {
-				font-size: 7rem;
+				font-size: 6rem;
 				margin-bottom: 0;
 				color: #FFF;
 				font-weight: 300;
 			}
+            @media only screen and (max-width: 980px) {
+                .banner > article h2 {
+				    font-size: 3rem;
+                    margin-bottom: 0;
+                    color: #FFF;
+                    font-weight: 300;
+                }
+
+            }
 
 				.banner > article h2:after {
 					display: none;
@@ -4196,6 +4205,18 @@
 				letter-spacing: .25rem;
 			}
 
+            @media only screen and (max-width: 980px) {
+                .banner > article p {
+                            color: rgba(255, 255, 255, 0.65);
+                            text-transform: uppercase;
+                            font-size: 0.5rem;
+                            font-weight: 300;
+                            margin: 0;
+                            padding-bottom: 1.75rem;
+                            letter-spacing: .25rem;
+                        }
+
+            } 
 				.banner > article p:after {
 					content: '';
 					position: absolute;
