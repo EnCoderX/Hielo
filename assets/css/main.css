@@ -2553,7 +2553,7 @@
 	header p {
 		position: relative;
 		margin: 0 0 1.5rem 0;
-	}  
+	}
 
 	header h2 + p {
 		font-size: 1.25rem;
@@ -4043,7 +4043,14 @@
             min-height: 100vh;
             height: 100vh !important;
 						width: 100%;
-        }
+					}
+
+				.banner.half.products {
+	          padding: 0;
+            min-height: 0px;
+            height: 10px !important;
+						width: 100%;
+					}
 
         @media screen and (max-width:980px) {
         .banner.half {
@@ -4216,7 +4223,7 @@
                             letter-spacing: .25rem;
                         }
 
-            } 
+            }
 				.banner > article p:after {
 					content: '';
 					position: absolute;
@@ -4286,7 +4293,7 @@
 		@media screen and (max-width: 736px) {
 
 			.banner > article .inner {
-				width: 90%;
+				width: 10px;
 			}
 
 			.banner > article p {
