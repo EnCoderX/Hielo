@@ -3948,6 +3948,11 @@
 					text-transform: none !important;
 				}
 
+				#header > p {
+					padding-right: 200px;
+					
+				}
+
 				#header > a[href="#menu"]:before {
 					margin: 0 0.5em 0 0;
 				}
