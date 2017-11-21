@@ -3948,11 +3948,6 @@
 					text-transform: none !important;
 				}
 
-				#header > p {
-					padding-right: 0;
-
-				}
-
 				#header > a[href="#menu"]:before {
 					margin: 0 0.5em 0 0;
 				}
@@ -4351,7 +4346,8 @@
 
             #range {
             padding-bottom: 20px;
-            }
+						text-align: center;
+						}
 
             .banner > article .inner > :last-child {
 					margin-bottom: 0;
@@ -4363,9 +4359,10 @@
 				color: #FFF;
 				font-weight: 300;
 			}
+
             @media only screen and (max-width: 980px) {
                 .banner > article h2 {
-				    font-size: 3rem;
+				    				font-size: 3rem;
                     margin-bottom: 0;
                     color: #FFF;
                     font-weight: 300;
@@ -4468,7 +4465,7 @@
 		@media screen and (max-width: 736px) {
 
 			.banner > article .inner {
-				width: 10px;
+				width: 10rem;
 			}
 
 			.banner > article p {
@@ -4478,7 +4475,6 @@
 			.banner > article h2 {
 				font-size: 4em;
 			}
-
 		}
 
 		body.is-mobile .banner > article {
@@ -4554,3 +4550,8 @@
 		display: none;
 	}
 }
+
+	#Ankush	{
+		padding-left: 200px;
+		left: 0px;
+		}
