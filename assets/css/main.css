@@ -3949,8 +3949,8 @@
 				}
 
 				#header > p {
-					padding-right: 200px;
-					
+					padding-right: 0;
+
 				}
 
 				#header > a[href="#menu"]:before {
